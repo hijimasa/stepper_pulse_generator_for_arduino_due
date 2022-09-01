@@ -1,0 +1,6 @@
+[submodule "lib/pwm_lib"]
+	path = lib/pwm_lib
+	url = https://github.com/antodom/pwm_lib.git
+[submodule "lib/tc_lib"]
+	path = lib/tc_lib
+	url = https://github.com/antodom/tc_lib.git
