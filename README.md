@@ -3,7 +3,7 @@
 ## About
 With PWM units in Arduino Due (SAM3X8E), this library can generate pulses suitable for rotating the stepper at a desired speed.
 
-![real_circuit](figs/ForStepperLibraryWithArduinoDue_%E3%83%96%E3%83%AC%E3%83%83%E3%83%89%E3%83%9C%E3%83%BC%E3%83%89.png)
+![real_circuit](figs/ForStepperLibraryWithArduinoDue_ActualWiringDiagram.png)
 
 ## Description
 This library is a wrapper for antodom/pwm_lib. I would like to thank Dr. Antonio, the creator of antodom/pwm_lib.
@@ -17,11 +17,11 @@ Although a library for generating waveforms originally existed, this library is 
 ## Requirement
 This library dependent below libraries. They are putted into lib/ as submodule.
 
-- antodom/pwm_lib 
+- [antodom/pwm_lib](https://github.com/antodom/pwm_lib) 
 
   This is library to use PWM units.
 
-- antodom/tc_lib
+- [antodom/tc_lib](https://github.com/antodom/tc_lib/)
 
   This is needed to build pwm_lib.
 
@@ -44,7 +44,7 @@ You can build by VS Platform IO with Visual Studio Code.
 
    Note: You can drive Motor with AC/DC convertors or batteries.
 
-   ![circuit_diagram](figs/ForStepperLibraryWithArduinoDue_%E5%9B%9E%E8%B7%AF%E5%9B%B3.png)
+   ![circuit_diagram](figs/ForStepperLibraryWithArduinoDue_CircuitDiagram.png)
 
 1. Open this repository folder with Visual Studio Code.
 
