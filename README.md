@@ -6,7 +6,7 @@ With PWM units in Arduino Due (SAM3X8E), this library can generate pulses suitab
 ![real_circuit](figs/ForStepperLibraryWithArduinoDue_%E3%83%96%E3%83%AC%E3%83%83%E3%83%89%E3%83%9C%E3%83%BC%E3%83%89.png)
 
 ## Description
-This library is a wrapper for ntodom/pwm_lib. I would like to thank Dr. Antonio, the creator of ntodom/pwm_lib.
+This library is a wrapper for antodom/pwm_lib. I would like to thank Dr. Antonio, the creator of antodom/pwm_lib.
 
 digitalWrite() is mainly used to control the stepper. While this allows the user to freely change the waveform, it requires the arduino to concentrate on its processing. If a time-consuming process such as serial communication is added, the waveform will be distorted.
 
